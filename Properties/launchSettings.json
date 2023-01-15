@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "MatcherService": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7117"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 32263,
+      "useSSL": false
+    }
+  }
+}
